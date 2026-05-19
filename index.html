@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="theme-color" content="#220e07">
-    <title>ARYA &amp; SITA Wedding Invitation</title>
+    <title>SOPIAN &amp; NADIA Wedding Invitation</title>
     
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
     
     <script id="tailwind-config">
@@ -78,11 +78,11 @@
                     },
                     fontFamily: {
                         "body-md": ["Montserrat"],
-                        "display-lg-mobile": ["Playfair Display"],
-                        "headline-md": ["Playfair Display"],
-                        "headline-sm": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"], // <-- Ubah ini
+                        "headline-md": ["Playfair Display"],       // <-- Ubah ini
+                        "headline-sm": ["Playfair Display"],       // <-- Ubah ini
                         "body-lg": ["Montserrat"],
-                        "display-lg": ["Playfair Display"],
+                        "display-lg": ["Playfair Display"],        // <-- Ubah ini
                         "label-caps": ["Montserrat"]
                     },
                     fontSize: {
@@ -157,18 +157,19 @@
     <!-- Navigation -->
     <header class="fixed top-0 z-50 w-full bg-surface/90 backdrop-blur-md border-b border-secondary/20">
         <nav class="flex justify-between items-center w-full px-5 md:px-margin-page py-3 max-w-7xl mx-auto">
-            <div class="font-headline-sm text-[14px] sm:text-[16px] md:text-headline-sm text-secondary tracking-widest uppercase truncate pr-2">ARYA &amp; SITA</div>
+            <div class="font-headline-sm text-[14px] sm:text-[16px] md:text-headline-sm text-secondary tracking-widest uppercase truncate pr-2">SOPIAN &amp; NADIA</div>
             <div class="hidden lg:flex gap-8 items-center">
+                <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-secondary transition-colors uppercase" href="#profil">Profil</a>
                 <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-secondary transition-colors uppercase" href="#events">Acara</a>
                 <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-secondary transition-colors uppercase" href="#guestbook">Doa Restu</a>
                 <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-secondary transition-colors uppercase" href="#kehadiran">Konfirmasi</a>
                 <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-secondary transition-colors uppercase" href="#gifts">Kado Digital</a>
             </div>
-            <a class="bg-secondary text-on-secondary px-3 py-1.5 md:px-6 md:py-2 text-[10px] md:text-label-caps font-label-caps uppercase tracking-widest hover:opacity-90 transition-all whitespace-nowrap rounded" href="#events">Buka Undangan</a>
+            <a class="bg-secondary text-on-secondary px-3 py-1.5 md:px-6 md:py-2 text-[10px] md:text-label-caps font-label-caps uppercase tracking-widest hover:opacity-90 transition-all whitespace-nowrap rounded" href="#profil">Buka Undangan</a>
         </nav>
     </header>
 
-    <!-- Section 1: Hero (Gambar Altar Mewah) -->
+    <!-- Section 1: Hero -->
     <section class="relative min-h-[100dvh] snap-start flex items-center justify-center overflow-hidden pt-16 px-4" id="hero">
         <div class="absolute inset-0 z-0">
             <img class="w-full h-full object-cover opacity-50 animate-zoom-slow" data-alt="Wedding Altar Background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHN7u6V1bsWY2kB-PPY7l1f7zyrBa_3eoURcdWtOi6A_b8T6noUF6Cn5GJpiIChts8Oz3El_UyLpF5IKWd5S-0LfeHguNNsoHH9pfgRMmVVSh3_UGKrN8ig0RhaimCLlSSFHVHJuXu8rnZX4f63_FIgguFb4UI5hn3PCd0-K4Ia4DIn0Qz2g1N7dt9pAvm8mniY4qDF2rRoQenpF0q37Ia7I_KyHZ-P2JUMEyYgDPI4sqCub3L7NxoANdB6F-NO7xAMYIQtJHZJoc">
@@ -178,14 +179,15 @@
         
         <div class="relative z-10 text-center scroll-animate opacity-0 w-full max-w-2xl mx-auto" data-animate="animate-fade-in-up">
             <p class="font-label-caps text-[10px] md:text-label-caps text-secondary mb-3 tracking-[0.3em] uppercase">Pernikahan</p>
-            <h1 class="font-display-lg text-5xl sm:text-6xl md:text-[80px] leading-tight mb-4 md:mb-6 text-shimmer">Sita &amp; Arya</h1>
+            <h1 class="font-display-lg text-5xl sm:text-6xl md:text-[80px] leading-tight mb-4 md:mb-6 text-shimmer">Sopian &amp; Nadia</h1>
             <div class="flex items-center justify-center gap-4 mb-8 md:mb-12">
                 <div class="h-[1px] w-8 sm:w-12 bg-secondary/40"></div>
-                <p class="font-headline-sm text-[14px] sm:text-[16px] md:text-headline-sm text-secondary tracking-widest">12 . 12 . 2024</p>
+                <!-- Tanggal Acara bisa disesuaikan nanti -->
+                <p class="font-headline-sm text-[14px] sm:text-[16px] md:text-headline-sm text-secondary tracking-widest">24 . 05 . 2026</p>
                 <div class="h-[1px] w-8 sm:w-12 bg-secondary/40"></div>
             </div>
             <!-- Tombol Buka Undangan memicu Audio -->
-            <a class="inline-block gold-border px-8 py-3 md:px-10 md:py-4 text-[10px] md:text-label-caps font-label-caps text-secondary hover:bg-secondary hover:text-on-secondary transition-all duration-500 uppercase tracking-[0.2em] rounded bg-background/50 backdrop-blur-sm" href="#events" onclick="initAudio()">Buka Undangan</a>
+            <a class="inline-block gold-border px-8 py-3 md:px-10 md:py-4 text-[10px] md:text-label-caps font-label-caps text-secondary hover:bg-secondary hover:text-on-secondary transition-all duration-500 uppercase tracking-[0.2em] rounded bg-background/50 backdrop-blur-sm" href="#profil" onclick="initAudio()">Buka Undangan</a>
             <div class="mt-12 md:mt-16 text-center">
                 <p class="font-label-caps text-[9px] md:text-label-caps text-secondary/70 mb-2 uppercase tracking-widest">Kepada Yth. Bapak/Ibu/Saudara/i:</p>
                 <!-- Menambahkan ID nama-tamu untuk diubah melalui JavaScript -->
@@ -194,7 +196,47 @@
         </div>
     </section>
 
-    <!-- Section 2: Event Details (Gambar Elegan Klasik Dekorasi) -->
+    <!-- Section 1.5: Profil Mempelai -->
+    <section class="py-12 md:py-section-padding relative min-h-[100dvh] flex flex-col justify-center snap-start" id="profil">
+        <div class="absolute inset-0 z-0">
+            <img class="w-full h-full object-cover opacity-20" src="https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?q=80&w=2070&auto=format&fit=crop" alt="Dark texture">
+            <div class="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background"></div>
+        </div>
+        <div class="absolute inset-0 songket-overlay"></div>
+        
+        <div class="px-5 md:px-margin-page max-w-5xl mx-auto w-full relative z-10 text-center">
+            <div class="scroll-animate opacity-0" data-animate="animate-fade-in-up">
+                <p class="font-label-caps text-[10px] md:text-label-caps text-secondary mb-3 tracking-[0.3em] uppercase">Maha Suci Allah</p>
+                <p class="font-body-md text-[13px] md:text-[16px] text-on-surface/80 mb-8 max-w-2xl mx-auto italic">
+                    "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya..." (QS. Ar-Rum: 21)
+                </p>
+                <h2 class="font-display-lg text-[32px] md:text-[40px] text-shimmer mb-10">Mempelai</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-stretch">
+                <!-- Groom -->
+                <div class="bg-surface-container/80 backdrop-blur-md p-8 md:p-10 gold-border rounded-2xl shadow-2xl scroll-animate opacity-0 flex flex-col justify-center" data-animate="animate-fade-in-left">
+                    <p class="font-label-caps text-[10px] text-secondary mb-4 uppercase tracking-widest">Mempelai Laki-Laki</p>
+                    <h3 class="font-headline-md text-[24px] md:text-[32px] text-on-surface mb-4">Lalu Sopian Hadi</h3>
+                    <p class="font-body-md text-[13px] md:text-[15px] text-on-surface/60 mb-2">Putra dari pasangan</p>
+                    <p class="font-body-md text-[14px] md:text-[16px] text-secondary font-semibold leading-relaxed">
+                        Bpk. Lalu Sapriadi <br><span class="text-on-surface/40 text-[12px] font-normal">&amp;</span><br> Ibu Baiq Patmawati
+                    </p>
+                </div>
+                <!-- Bride -->
+                <div class="bg-surface-container/80 backdrop-blur-md p-8 md:p-10 gold-border rounded-2xl shadow-2xl scroll-animate opacity-0 flex flex-col justify-center" data-animate="animate-fade-in-right">
+                    <p class="font-label-caps text-[10px] text-secondary mb-4 uppercase tracking-widest">Mempelai Wanita</p>
+                    <h3 class="font-headline-md text-[24px] md:text-[32px] text-on-surface mb-4">Baiq Nadia Elvina</h3>
+                    <p class="font-body-md text-[13px] md:text-[15px] text-on-surface/60 mb-2">Putri dari pasangan</p>
+                    <p class="font-body-md text-[14px] md:text-[16px] text-secondary font-semibold leading-relaxed">
+                        Bpk. Lalu Muhamad Saleh <br><span class="text-on-surface/40 text-[12px] font-normal">&amp;</span><br> Ibu Muhanim
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Event Details -->
     <section class="py-12 md:py-section-padding relative overflow-hidden min-h-[100dvh] flex flex-col justify-center snap-start" id="events">
         <div class="absolute inset-0 z-0">
             <img class="w-full h-full object-cover opacity-30" src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop" alt="Wedding Event Background">
@@ -217,15 +259,16 @@
                     <h3 class="font-headline-md text-[20px] md:text-headline-md mb-4 text-on-surface">Akad Nikah</h3>
                     <div class="flex items-center gap-3 mb-2 text-on-surface/80">
                         <span class="material-symbols-outlined text-secondary text-[20px]">calendar_today</span>
-                        <p class="font-body-lg text-[14px] md:text-[18px]">Kamis, 12 Desember 2024</p>
+                        <!-- Tanggal Acara bisa disesuaikan nanti -->
+                        <p class="font-body-lg text-[14px] md:text-[18px]">Ahad, 24 Mei 2026</p>
                     </div>
                     <div class="flex items-center gap-3 mb-6 text-on-surface/80">
                         <span class="material-symbols-outlined text-secondary text-[20px]">schedule</span>
-                        <p class="font-body-lg text-[14px] md:text-[18px]">08:00 – 10:00 WITA</p>
+                        <p class="font-body-lg text-[14px] md:text-[18px]">08:30 – Selesai</p>
                     </div>
                     <p class="font-body-md text-[14px] md:text-[16px] text-on-surface/60 mb-6 md:mb-8 leading-relaxed">
-                        Gedung Sasak Heritage<br>
-                        Jl. Raya Mataram No. 123, Lombok
+                        Lokasi Acara<br>
+                        Gubuk Odang, Desa Rarang Kec Terara
                     </p>
                     <a class="inline-flex items-center justify-center w-full gap-2 bg-secondary text-on-secondary px-6 py-3 font-label-caps text-[10px] md:text-label-caps uppercase hover:opacity-90 transition-all rounded" href="https://maps.google.com" target="_blank">
                         <span class="material-symbols-outlined text-sm">location_on</span>
@@ -241,15 +284,16 @@
                     <h3 class="font-headline-md text-[20px] md:text-headline-md mb-4 text-on-surface">Resepsi</h3>
                     <div class="flex items-center gap-3 mb-2 text-on-surface/80">
                         <span class="material-symbols-outlined text-secondary text-[20px]">calendar_today</span>
-                        <p class="font-body-lg text-[14px] md:text-[18px]">Kamis, 12 Desember 2024</p>
+                        <!-- Tanggal Acara bisa disesuaikan nanti -->
+                        <p class="font-body-lg text-[14px] md:text-[18px]">Ahad, 24 Mei 2026</p>
                     </div>
                     <div class="flex items-center gap-3 mb-6 text-on-surface/80">
                         <span class="material-symbols-outlined text-secondary text-[20px]">schedule</span>
-                        <p class="font-body-lg text-[14px] md:text-[18px]">11:00 – 14:00 WITA</p>
+                        <p class="font-body-lg text-[14px] md:text-[18px]">10:00 – 12:00 WITA</p>
                     </div>
                     <p class="font-body-md text-[14px] md:text-[16px] text-on-surface/60 mb-6 md:mb-8 leading-relaxed">
-                        Gedung Sasak Heritage<br>
-                        Ballroom Agung Utama
+                        Lokasi Acara<br>
+                        Gubuk Odang, Desa Rarang Kec Terara
                     </p>
                     <a class="inline-flex items-center justify-center w-full gap-2 gold-border text-secondary px-6 py-3 font-label-caps text-[10px] md:text-label-caps uppercase hover:bg-secondary hover:text-on-secondary transition-all rounded bg-background/30" href="https://maps.google.com" target="_blank">
                         <span class="material-symbols-outlined text-sm">location_on</span>
@@ -260,7 +304,7 @@
         </div>
     </section>
 
-    <!-- Section 3: Kehadiran (Gambar Nuansa Estetik Daun/Bunga) -->
+    <!-- Section 3: Kehadiran -->
     <section class="py-12 md:py-section-padding relative min-h-[100dvh] flex flex-col justify-center snap-start" id="kehadiran">
         <div class="absolute inset-0 z-0">
             <img class="w-full h-full object-cover opacity-30" src="https://images.unsplash.com/photo-1523688881515-565538d5f303?q=80&w=2070&auto=format&fit=crop" alt="Floral aesthetic background">
@@ -311,10 +355,9 @@
         </div>
     </section>
 
-    <!-- Section 4: Guest Book / Doa Restu (Gambar Tangan Berdoa / Estetika Sakral) -->
+    <!-- Section 4: Guest Book / Doa Restu -->
     <section class="py-12 md:py-section-padding relative min-h-[100dvh] flex flex-col justify-center snap-start" id="guestbook">
         <div class="absolute inset-0 z-0">
-            <!-- Background Baru (Sepasang tangan / estetika doa sakral) -->
             <img class="w-full h-full object-cover opacity-30" src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=2070&auto=format&fit=crop" alt="Praying hands and wedding aesthetic">
             <div class="absolute inset-0 bg-gradient-to-b from-background via-background/60 to-background"></div>
         </div>
@@ -327,21 +370,21 @@
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full max-w-md sm:max-w-none mx-auto relative z-10 px-5 md:px-margin-page">
             <div class="bg-surface-container-high/90 backdrop-blur-md p-5 md:p-8 border-l-4 border-secondary scroll-animate opacity-0 rounded-r-lg shadow-lg" data-animate="animate-fade-in-up">
-                <p class="font-body-md text-[13px] md:text-[15px] italic mb-3">"Selamat menempuh hidup baru Arya dan Sita! Semoga menjadi keluarga yang sakinah, mawaddah, warahmah."</p>
-                <p class="font-label-caps text-[9px] md:text-[10px] text-secondary uppercase">- Keluarga Besar Hasan</p>
+                <p class="font-body-md text-[13px] md:text-[15px] italic mb-3">"Selamat menempuh hidup baru Sopian dan Nadia! Semoga menjadi keluarga yang sakinah, mawaddah, warahmah."</p>
+                <p class="font-label-caps text-[9px] md:text-[10px] text-secondary uppercase">- kak dani</p>
             </div>
             <div class="bg-surface-container-high/90 backdrop-blur-md p-5 md:p-8 border-l-4 border-secondary scroll-animate opacity-0 rounded-r-lg shadow-lg" data-animate="animate-fade-in-up" style="animation-delay: 200ms;">
-                <p class="font-body-md text-[13px] md:text-[15px] italic mb-3">"May your journey together be filled with endless love, laughter, and beautiful Sasak traditions. Congrats!"</p>
-                <p class="font-label-caps text-[9px] md:text-[10px] text-secondary uppercase">- Sarah &amp; James</p>
+                <p class="font-body-md text-[13px] md:text-[15px] italic mb-3">"Maasyaallah, Semoga menjadi pasangan Sakinah Mawaddah Warohmah. aamiin."</p>
+                <p class="font-label-caps text-[9px] md:text-[10px] text-secondary uppercase">- bang ojik</p>
             </div>
             <div class="bg-surface-container-high/90 backdrop-blur-md p-5 md:p-8 border-l-4 border-secondary scroll-animate opacity-0 sm:col-span-2 lg:col-span-1 rounded-r-lg shadow-lg" data-animate="animate-fade-in-up" style="animation-delay: 400ms;">
                 <p class="font-body-md text-[13px] md:text-[15px] italic mb-3">"Baarakallahu laka wa baaraka 'alaika wa jama'a bainakuma fii khoir. Selamat ya!"</p>
-                <p class="font-label-caps text-[9px] md:text-[10px] text-secondary uppercase">- Ahmad Fauzi</p>
+                <p class="font-label-caps text-[9px] md:text-[10px] text-secondary uppercase">- Gaoz</p>
             </div>
         </div>
     </section>
 
-    <!-- Section 5: Digital Gift (Gambar Bokeh Lampu Hangat) -->
+    <!-- Section 5: Digital Gift (TANPA QRIS) -->
     <section class="py-12 md:py-section-padding relative min-h-[100dvh] flex flex-col justify-center snap-start" id="gifts">
         <div class="absolute inset-0 z-0">
             <img class="w-full h-full object-cover opacity-30" src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=2070&auto=format&fit=crop" alt="Elegant light bokeh background">
@@ -354,22 +397,16 @@
             <h2 class="font-display-lg text-[22px] md:text-headline-md text-secondary mb-4 uppercase">Hadiah Digital</h2>
             <p class="font-body-md text-[13px] md:text-[16px] text-on-surface/80 mb-8 md:mb-12 max-w-lg mx-auto">Doa restu Anda adalah hadiah terindah. Namun jika ingin memberikan tanda kasih, silakan melalui informasi berikut.</p>
             
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 items-center bg-surface-container/90 backdrop-blur-md p-6 md:p-10 gold-border rounded-2xl w-full max-w-md sm:max-w-none mx-auto shadow-2xl">
-                <div class="text-center sm:text-left space-y-4">
-                    <div class="bg-surface/80 p-5 rounded-xl border border-secondary/20">
-                        <p class="font-label-caps text-[10px] text-secondary mb-2 uppercase">Bank Mandiri</p>
-                        <p class="font-headline-sm text-xl md:text-2xl text-on-surface tracking-wider mb-1">1234 5678 90</p>
-                        <p class="font-body-md text-[13px] text-on-surface/60">a/n Arya Wiranata</p>
-                        <button class="mt-4 flex items-center justify-center sm:justify-start gap-2 text-secondary font-label-caps text-[10px] hover:underline w-full sm:w-auto">
-                            <span class="material-symbols-outlined text-[16px]">content_copy</span> Copy Rekening
+            <div class="flex justify-center items-center bg-surface-container/90 backdrop-blur-md p-6 md:p-10 gold-border rounded-2xl w-full max-w-md mx-auto shadow-2xl">
+                <div class="text-center space-y-4 w-full">
+                    <div class="bg-surface/80 p-6 md:p-8 rounded-xl border border-secondary/20">
+                        <p class="font-label-caps text-[12px] md:text-[14px] text-secondary mb-2 uppercase tracking-widest">Bank BCA</p>
+                        <p class="font-headline-sm text-2xl md:text-3xl text-on-surface tracking-wider mb-2">7255382012</p>
+                        <p class="font-body-md text-[14px] md:text-[16px] text-on-surface/60">a/n L. Wiragaos Abdul Rozak</p>
+                        <button class="mt-6 flex items-center justify-center gap-2 text-secondary font-label-caps text-[11px] md:text-[12px] hover:underline w-full mx-auto py-2 border border-secondary/30 rounded-lg hover:bg-secondary/10 transition-colors" onclick="navigator.clipboard.writeText('7255382012'); alert('Nomor rekening berhasil disalin!');">
+                            <span class="material-symbols-outlined text-[18px]">content_copy</span> Copy Rekening
                         </button>
                     </div>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="p-3 bg-white rounded-xl mb-3 shadow-lg">
-                        <img alt="QR Code" class="w-32 h-32 md:w-40 md:h-40" src="foto.png">
-                    </div>
-                    <p class="font-label-caps text-[10px] md:text-[11px] text-secondary uppercase text-center">Pindai QRIS</p>
                 </div>
             </div>
         </div>
@@ -384,14 +421,14 @@
         <div class="absolute inset-0 songket-overlay"></div>
         
         <div class="flex flex-col items-center gap-5 md:gap-8 px-5 text-center relative z-10">
-            <div class="font-headline-sm text-[16px] md:text-[20px] text-secondary tracking-[0.3em] uppercase drop-shadow-md">ARYA &amp; SITA</div>
+            <div class="font-headline-sm text-[16px] md:text-[20px] text-secondary tracking-[0.3em] uppercase drop-shadow-md">SOPIAN &amp; NADIA</div>
             <p class="font-body-md text-[13px] md:text-[15px] text-on-surface/80 max-w-md">Terima kasih atas segala doa dan harapan baik Anda. Sampai jumpa di hari bahagia kami.</p>
             <div class="flex flex-col sm:flex-row gap-3 sm:gap-6 mt-2">
                 <a class="text-on-surface/70 hover:text-secondary transition-colors font-label-caps text-[9px] md:text-[10px] uppercase tracking-wider" href="#">Kebijakan Privasi</a>
                 <a class="text-on-surface/70 hover:text-secondary transition-colors font-label-caps text-[9px] md:text-[10px] uppercase tracking-wider" href="#">Hubungi Layanan Tamu</a>
             </div>
             <div class="h-[1px] w-24 md:w-32 bg-secondary/30 my-2"></div>
-            <p class="font-body-md text-[11px] md:text-[13px] text-on-surface/50 italic">© 2024 Arya &amp; Sita Wedding. Dibuat dengan Warisan Budaya Sasak.</p>
+            <p class="font-body-md text-[11px] md:text-[13px] text-on-surface/50 italic">© 2024 Sopian &amp; Nadia Wedding. Dibuat dengan Warisan Budaya Sasak.</p>
             <a class="mt-4 md:mt-6 group" href="#hero">
                 <span class="material-symbols-outlined text-secondary group-hover:-translate-y-2 transition-transform text-3xl drop-shadow-lg">keyboard_double_arrow_up</span>
             </a>
@@ -522,8 +559,7 @@
                 const inputNamaRSVP = document.getElementById('name');
                 if (inputNamaRSVP) {
                     inputNamaRSVP.value = guestName;
-                    inputNamaRSVP.focus();
-                    inputNamaRSVP.blur();
+                    // Hapus .focus() agar browser tidak auto-scroll ke bawah saat link pertama dibuka
                 }
             }
         });
